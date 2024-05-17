@@ -1,16 +1,17 @@
-# nnSAM: Plug-and-play Segment Anything Model Improves nnUNet Performance
+
+## The SAM trained on 2D natural images used by nnsam has limited improvement for 3D medical images. Therefore, using Med SAM, which is pre-trained on medical image datasets, is better suited to the task of segmenting medical images.
+
+## checkpoint for Med SAM 3D : [SAM-Med3D-Turbo](https://drive.google.com/file/d/1MuqYRQKIZb4YPtEraK8zTKKpp-dUQIR9/view?usp=sharing)
 
 ## Our entire code is built based on nnUNet, and you can follow the nnUNet instructions exactly.
 
-
-Install nnSAM depending on your use case:
 
 ```bash
 conda create -n nnsam python=3.9
 conda activate nnsam
 pip install git+https://github.com/ChaoningZhang/MobileSAM.git
 pip install timm
-pip install git+https://github.com/Kent0n-Li/nnSAM.git
+pip install git+https://github.com/SuperJunier666/nnMed-SAM.git
 ```
 
 It is important to input "set MODEL_NAME=nnsam" before using it.
