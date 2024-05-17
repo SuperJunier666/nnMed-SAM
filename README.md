@@ -48,12 +48,4 @@ Additional information:
 - [Extending nnU-Net](documentation/extending_nnunet.md)
 - [What is different in V2?](documentation/changelog.md)
 
-[//]: # (- [Ignore label]&#40;documentation/ignore_label.md&#41;)
 
-
-
-# Acknowledgements
-
-nnU-Net is developed and maintained by the Applied Computer Vision Lab (ACVL) of [Helmholtz Imaging](http://helmholtz-imaging.de) 
-and the [Division of Medical Image Computing](https://www.dkfz.de/en/mic/index.php) at the 
-[German Cancer Research Center (DKFZ)](https://www.dkfz.de/en/index.html).
